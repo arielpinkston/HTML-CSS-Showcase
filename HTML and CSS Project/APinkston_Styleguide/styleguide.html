@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Style Guide</h1>
+            <p>A page designed to layout the visual development of my site.</p>
+        </div>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../projects.html">Projects</a>
+            <a href="styleguide.html">Style Guide</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="animation" class="animation"></div>
+
+        <section class="colors">
+            <h2>Colors Used</h2>
+
+            <div id="color1" class="color1"></div> <div class="color1text"><h3>Primary</h3>
+            <p>This color is used for headings and links. rgb(85, 120, 184)</p></div>
+            
+            <div id="color2" class="color2"></div> <div class="color2text"><h3>Secondary</h3>
+                <p>This color is mostly used for navigation and. rgb(184, 159, 85)</p></div>
+
+            <div id="color3" class="color3"></div> <div class="color3text"><h3>Accent 1</h3>
+                <p>This color is an accent used for main backgrounds. rgb(255, 252, 214)</p></div>
+            
+            <div id="color4" class="color4"></div> <div class="color4text"><h3>Accent 2</h3>
+                <p>This color is an accent used for the backgrounds of different sections. rgb(255, 255, 255). The outline color surounding it is used for outlining subsections. rgb(182, 182, 182)</p></div>
+            
+            <div id="color5" class="color5"></div> <div class="color5text"><h3>Accent 3</h3>
+                <p>This color is an accent used for for all regular text and for highlighted links. rgb(111, 104, 0)</p></div>
+            </section>
+        
+        <section class="typography">
+            <h2>Typography</h2>
+
+            <div class="heading1"><h3>Heading 1</h3><br>
+                <pre>
+    font-family: 'Quicksand';
+    font-size: 300%;
+    text-align: center;
+                </pre></div>
+
+            <div class="heading2"><h3>Heading 2</h3><br>
+                <pre>   font-family: 'Quicksand';</pre></div>
+
+            <div class="heading3"><h3>Heading 3</h3><br>
+                <pre>   font-family: 'Quicksand';</pre></div>
+
+            <div class="bodytext"><h3>Body Text</h3><br>
+                <pre>   font-family: 'Ubuntu';</pre></div>
+            </section>
+
+        <section class="components">
+            <h2>Components</h2>
+
+            <div class="alink"><a href="#">A Link</a><br>
+                <pre>   
+    a {
+        font-family: 'Ubuntu';
+        color: rgb(85, 120, 184);
+        text-underline-offset: .25em;
+    }
+    a:hover {
+        color:rgb(111, 104, 0);
+    }
+        </pre></div>
+
+        <div class="blockquote">
+            <blockquote>This is a blockquote.</blockquote>
+            <pre>
+    blockquote {
+        padding: 15px;
+        border: 1px solid #3c643b;
+        border-radius: 7px;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
+        text-align: center;
+        margin-left: 100px;
+        float: left;
+    }
+            </pre>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Button"><br><br>
+        <pre>
+    input[type=button], input[type=submit], 
+    input[type=reset] {
+        background-color: rgb(215, 157, 62);
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    input:focus {
+        border: 3px solid #555;
+    }
+        </pre>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy;2023 Ariel Pinkston</p>
+    </footer>
+</body>
+
+</html>

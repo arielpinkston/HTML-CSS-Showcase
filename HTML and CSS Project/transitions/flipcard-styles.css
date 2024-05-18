@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-color: rgb(255, 252, 214);
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.75em;
+    font-family: Georgia, sans-serif, serif;
+    font-size: 100%;
+    color: rgb(111, 104, 0);
+}
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+h2 {
+    font-size: 225%;
+}
+h3 {
+    font-size: 150%;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+a:link {
+    color: rgb(22, 52, 23);
+}
+a:visited {
+    color: rgb(74, 171, 77);
+}
+a:focus, a:hover {
+    color: rgb(255, 191, 0);
+    background-color: #acacac;
+}
+a:active {
+    color: rgb(45, 105, 47);
+    background-color: #acacac;
+}
+  .card-container {
+    cursor: pointer;
+    height: 150px;
+    position: relative;
+    width: 150px;
+    flex-direction: row;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    display: flex;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    line-height: 150px;
+    text-align: center;
+  }
+  .card .back {
+    background: #eaeaed;
+    color: rgb(111, 104, 0);
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+    border: 6px solid;
+  }
+  .card .side img {
+    width: 100%;
+    height: auto;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-color: rgb(255, 252, 214);
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.75em;
+    font-family: Georgia, sans-serif, serif;
+    font-size: 100%;
+    color: rgb(111, 104, 0);
+}
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+h2 {
+    font-size: 225%;
+    text-align: center;
+}
+h3 {
+    font-size: 150%;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+blockquote {
+    padding: 15px;
+    border: 1px solid #3c643b;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-left: 100px
+}
+dd {
+    font-style: italic;
+}
+dl {
+    font-family: 'Ubuntu', sans-serif;
+}
+a:link {
+    color: rgb(22, 52, 23);
+}
+a:visited {
+    color: rgb(74, 171, 77);
+}
+a:focus, a:hover {
+    color: rgb(255, 191, 0);
+    background-color: #acacac;
+}
+a:active {
+    color: rgb(45, 105, 47);
+    background-color: #acacac;
+}
+iframe {
+    align-items: center;
+}
+  

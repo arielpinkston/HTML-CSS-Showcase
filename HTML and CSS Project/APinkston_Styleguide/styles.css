@@ -1,0 +1,276 @@
+*{
+    margin:0; 
+    padding:0;
+}
+h1, h2, h3, nav {
+    font-family: 'Quicksand';
+}
+h1 {
+    font-size: 300%;
+    text-align: center;
+    color:rgb(85, 120, 184);
+}
+h2 {
+    color:rgb(85, 120, 184);
+}
+header {
+    text-align: center;
+    background: rgb(255, 252, 214);
+}
+header p {
+    padding: 1% 3% 3% 3%;
+}
+header h1 {
+    padding-top: 3%;
+}
+nav {
+    background: rgb(184, 159, 85);
+    padding: 4%;
+}
+a {
+    font-family: 'Ubuntu';
+    color: rgb(85, 120, 184);
+    text-underline-offset: .25em;
+}
+a:hover {
+    color:rgb(111, 104, 0);
+}
+p {
+    font-family: 'Ubuntu';
+    color: rgb(111, 104, 0);
+}
+body {
+    background: rgb(255, 252, 214);
+}
+footer {
+    float: right;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+}
+.colors {
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 4%;
+}
+.color1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(85, 120, 184);
+    border-radius: 50%
+  }
+#color1 {
+    margin: 3%;
+    float: left;
+    clear: left;
+}
+.color1text {
+    padding: 5% 5% 10% 5%;
+}
+.color2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(184, 159, 85);
+    border-radius: 50%
+  }
+#color2 {
+    margin: 3%;
+    float: left;
+    clear: left;
+}
+.color2text {
+    padding: 5% 5% 10% 5%;
+}
+.color3 {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 252, 214);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+  }
+#color3 {
+    margin: 3%;
+    float: left;
+    clear: left;
+}
+.color3text {
+    padding: 5% 5% 10% 5%;
+}
+.color4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+  }
+#color4 {
+    margin: 3%;
+    float: left;
+    clear: left;
+}
+.color4text {
+    padding: 5% 5% 10% 5%;
+}
+.color5 {
+    width: 100px;
+    height: 100px;
+    background: rgb(111, 104, 0);
+    border-radius: 50%
+  }
+#color5 {
+    margin: 3%;
+    float: left;
+    clear: left;
+}
+.color5text {
+    padding: 5% 5% 10% 5%;
+}
+.typography {
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 4%;
+}
+.heading1 {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+.heading2 {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+.heading3 {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+.bodytext {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+.components {
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 4%;
+}
+.alink {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+.blockquote {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+blockquote {
+    padding: 15px;
+    border: 1px solid #3c643b;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-left: 100px;
+    float: left;
+}
+.blockquote pre {
+    margin: 19% 0% 0% 0%;
+}
+.button {
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    border-width: 1px;
+    padding: 1.5%;
+    margin: 2.5%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(215, 157, 62);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+input:focus {
+    border: 3px solid #555;
+}
+.projects {
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 4%;
+}
+dl {
+    margin: 0% 0% 0% 2.5%;
+}
+.animation {
+    width: 100px;
+    height: 100px;
+    background: rgb(184, 159, 85);
+    border-radius: 50%
+}
+#animation {
+    margin: 3% 3% 3% 45%;
+    animation: colorfade 5s infinite;
+}
+@keyframes colorfade {
+    0% {background-color: rgb(85, 120, 184);}
+    20% {background-color: rgb(184, 159, 85);}
+    40% {background-color: rgb(255, 252, 214);}
+    60% {background-color: rgb(182, 182, 182);}
+    80% {background-color: rgb(255, 252, 214);}
+    100% {background-color: rgb(111, 104, 0);}
+}
+dd {
+    font-family: 'Ubuntu';
+    color: rgb(111, 104, 0);
+    margin: .5em 0em .5em 2em;
+}
+blockquote {
+    padding: 30px;
+    border: 1px solid #3c643b;
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    text-align: center;
+    margin: 4%;
+}
+.abitaboutme {
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 4%;
+}
+.abitaboutme p {
+    margin: .5em 0em 1em 2em;
+}
+.favoritequote {
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 4%;
+}
+.favoritequote p {
+    margin: .5em 0em 1em 2em;
+}
